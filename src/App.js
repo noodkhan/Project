@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstPage from './FirstPage/FirstPage';
+import SecondPage from './SecondPage/SecondPage';
+import ThridPage from './ThirdPage/ThridPage';
+import './Logic.js';
+import ForthPage from './ForthPage/ForthPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FirstPage></FirstPage>
+      <SecondPage></SecondPage>
+      <ThridPage></ThridPage>
+      <ForthPage></ForthPage>
     </div>
   );
 }
